@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-Label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Introdução</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#grid-two">Grid Dois</a></li>
+                    <li><a href="#pricing">Preços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section class="intro main-bg section">
+        <div id="home" class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>LeBron e Giannis Lideram Votação Para o All-Star</h2>
+                <p>Você pode votar nos seus All-Stars da NBA uma vez por dia, seja no site da NBA (NBA.com) ou no app da
+                    NBA
+                    (para iOS ou Android).</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg"
+                    alt="Pessoas ao lado de icones do HTML 5, CSS 3 e Javascript" />
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>INTRODUÇÃO</h2>
+            <p>
+                The Mandalorian é uma série de televisão americana de faroeste espacial criada por Jon Favreau para o
+                serviço de streaming Disney+. É a primeira série live-action da franquia Star Wars, começando cinco anos
+                após os eventos de O Retorno de Jedi (1983), e estrelado por Pedro Pascal como o personagem-título, um
+                caçador de recompensas solitário que foge para proteger "A Criança".
+            </p>
+
+            <p>
+                Em 2019, Jon Favreau revelou ao The Hollywood Reporter que ele apresentou pela primeira vez a ideia do
+                que se tornou O Mandalorian para Kathleen Kennedy durante o verão de 2017, enquanto dirigia o remake
+                fotorrealístico de O Rei Leão para a Walt Disney Pictures.
+            </p>
+            <p>
+                Em novembro de 2018, Pedro Pascal, Gina Carano e Nick Nolte foram escalados para os papéis principais.
+                Depois de se encontrar com Favreau, Pascal inicialmente pensou que seria Boba Fett, mas ele interpreta
+                um Mandaloriano chamado Din Djarin.
+            </p>
+        </div>
+    </section>
+    <section id="top3" class="grid-one main-bg section">
+
+        <div class=" main-content grid-one-content">
+            <h2 class="grid-main-heading">TOP 3 JOGADORES</h2>
+            <p class="grid-description">Melhores jogadores da temporada</p>
+            <div class="grid">
+                <article>
+                    <h3>Kevin Durant</h3>
+                    <p>Kevin Wayne Durant é um basquetebolista norte-americano que atua como ala. Atualmente joga no
+                        Brooklyn Nets, da National Basketball Association. Durant é amplamente considerado como um dos
+                        maiores jogadores de todos os tempos</p>
+                </article>
+                <article>
+                    <h3>LeBron James</h3>
+                    <p>
+                        LeBron Raymone James é um basquetebolista norte-americano que atua como ala pelo Los Angeles
+                        Lakers. Apelidado de King James, é amplamente reconhecido como um dos maiores jogadores de
+                        basquetebol de todos os tempos.</p>
+                </article>
+                <article>
+                    <h3>Stephen Curry</h3>
+                    <p>Wardell Stephen Curry II é um jogador norte-americano de basquete profissional que atualmente
+                        joga pelo Golden State Warriors, disputando a NBA. Muitos jogadores e analistas o consideram
+                        como o melhor arremessador da história do esporte.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="section white-bg grid-one">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-headig">Minha Galeria</h2>
+            <p class="grid-description">Uma breve descrição da galeria</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="Imagem aleatória do Unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="Imagem aleatória do Unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="Imagem aleatória do Unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="Imagem aleatória do Unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="Imagem aleatória do Unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="Imagem aleatória do Unsplash" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="grid-two" class="grid-one main-bg section">
+
+        <div class=" main-content grid-one-content">
+            <h2 class="grid-main-heading">GRID 2</h2>
+            <p class="grid-description">Melhores jogadores da temporada</p>
+            <div class="grid">
+                <article>
+                    <h3>Kevin Durant</h3>
+                    <p>Kevin Wayne Durant é um basquetebolista norte-americano que atua como ala. Atualmente joga no
+                        Brooklyn Nets, da National Basketball Association. Durant é amplamente considerado como um dos
+                        maiores jogadores de todos os tempos</p>
+                </article>
+                <article>
+                    <h3>LeBron James</h3>
+                    <p>
+                        LeBron Raymone James é um basquetebolista norte-americano que atua como ala pelo Los Angeles
+                        Lakers. Apelidado de King James, é amplamente reconhecido como um dos maiores jogadores de
+                        basquetebol de todos os tempos.</p>
+                </article>
+                <article>
+                    <h3>Stephen Curry</h3>
+                    <p>Wardell Stephen Curry II é um jogador norte-americano de basquete profissional que atualmente
+                        joga pelo Golden State Warriors, disputando a NBA. Muitos jogadores e analistas o consideram
+                        como o melhor arremessador da história do esporte.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+                <h2>PREÇO</h2>
+                <p>
+                    Em economia, contabilidade, finanças e negócios, preço é o valor monetário expresso numericamente
+                    associado a uma mercadoria, serviço ou patrimônio. O conceito de preço é central para a
+                    microeconomia,
+                    onde é uma das variáveis mais importantes na teoria de alocação de recursos (também chamada de
+                    teoria
+                    dos preços).
+                </p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Tabela de preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                            <th>Título 4</th>
+                            <th>Título 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Preço 1</td>
+                            <td>Preço 2</td>
+                            <td>Preço 3</td>
+                            <td>Preço 4</td>
+                            <td>Preço 5</td>
+                        </tr>
+                        <tr>
+                            <td>Preço 1</td>
+                            <td>Preço 2</td>
+                            <td>Preço 3</td>
+                            <td>Preço 4</td>
+                            <td>Preço 5</td>
+                        </tr>
+                        <tr>
+                            <td>Preço 1</td>
+                            <td>Preço 2</td>
+                            <td>Preço 3</td>
+                            <td>Preço 4</td>
+                            <td>Preço 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>MANDE A SUA MENSAGEM</h2>
+                <p>Breve descrição sobre o envio de mensagens para a nossa empresa.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg"
+                    alt="Pessoas ao lado de icones do HTML 5, CSS 3 e Javascript" />
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Entre em contato</legend>
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="fisrt-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar Mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/rafael-antunes-2aa824135/">Feito com <span class="heart">♥</span> por Rafael Antunes</p></a>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
